@@ -25,7 +25,7 @@ namespace StyleCop
 
                 if (result.Status == false)
                 {
-                    Logger.Instance.Write(LogType.Error, $"Action failled by a reason: {result.ErrorMessage}");
+                    Logger.Instance.Write(LogType.Error, $"Action failed by a reason: {result.ErrorMessage}");
                 }
             }
         }
